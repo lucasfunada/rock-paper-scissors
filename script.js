@@ -16,7 +16,7 @@ function getComputerChoice() {
     return "Scissors";
 }
 
-function playRound (computerChoice, playerChoice) { // 0 = Draw  1 = Player Win  2 = Computer Win
+function playRound (playerChoice, computerChoice) { // 0 = Draw  1 = Player Win  2 = Computer Win
     if(playerChoice === "Rock") {
         if(computerChoice === "Rock") {
             return 0;
